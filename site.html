@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .site {
+            width: 60%;
+            height: 100vh;
+            /*background: silver;*/
+            margin: 0 auto;
+        }
+        .block1 {
+            height: 70px;
+            background: yellow;
+        }
+        .block2 {
+            height: 30px;
+            background: blueviolet;
+            margin: 5px 0;
+        }
+        .daddy{
+            height: calc(100% - 165px);
+            margin: 5px 0;
+            font-size: 0;
+        }
+        .block3 {
+         height: 100%;
+         background: red;
+         width: calc(80% - 5px);
+         display: inline-block;
+         vertical-align: top;
+         font-size: 20px;
+         margin-right: 5px;
+        }
+        .block4 {
+            height: 100%;
+            background: magenta;
+            width: 20%;
+            display: inline-block;
+            vertical-align: top;
+            font-size: 20px;
+        }
+        .block5 {
+            height: 50px;
+            background: lime;
+        }
+    </style>
+</head>
+<body>
+    <div class="site">
+    <div class="block1"></div>
+    <div class="block2"></div>
+    <div class="daddy">
+     <div class="block3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto harum vitae quas officia alias. Soluta accusamus maiores voluptatem est.</div>
+     <div class="block4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam tempore voluptas voluptate unde enim optio facilis ea aut harum!</div>
+    </div>
+    <div class="block5"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box{
+            background: blueviolet;
+            width: 400px; /* ширина */
+            border-width: 10px;
+            border-color: brown;
+            border-style: solid; /* dotted | solid |dashed | double | none*/
+            border-right-style: solid;
+            border-bottom-color: blue ;
+            /*border-radius: 10px 200px 50px 30px;*/
+            padding: 50px 100px 10px; /* отступы */
+
+            /* 
+            padding: 50px;
+            padding: 50px 100px
+            padding: 50px 100px 30px
+            padding:50px 100px 30px 0
+            
+            */
+
+            text-align: justify;
+            color: #dedede;
+            font:20px / 1 sans-serif;
+            margin: 50px auto 100px;/* расстояние между пикселями*/
+        }
+        .menu{
+            width: 620px;
+            background: orangered;
+            margin: 0 auto;
+            padding: 0;
+            list-style-type: none;
+            font-size: 0;
+        }
+        .menu li{
+            width: calc(100% / 3 - 2px);
+            height: 50px;
+            border: dotted 1px; 
+            display:inline-block;/* block | inline*/
+            font-size: 15px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .menu a {
+         background: yellow;
+         color: forestgreen;
+         text-decoration: none;
+         display: block;
+        }
+        .menu a:hover {
+            background: linear-gradient(orangered, green);
+            color: yellow;
+
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="">Lorem, ipsum.</a></li>
+        <li><a href="">Maiores, beatae.</a></li>
+        <li><a href="">Illum, modi.</a></li>
+    </ul>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta  consequuntur molestias, distinctio, numquam corrupti sit sequi itaque molestiae eius accusamus illo praesentium rem! Sequi sapiente officia error voluptatum hic ipsam reiciendis, cumque explicabo a optio assumenda enim earum libero tempora voluptates ipsum molestiae alias. Assumenda a aperiam voluptate maxime, laborum iste perspiciatis totam maiores labore temporibus soluta nulla dolore tempore officia distinctio, inventore suscipit, animi libero aspernatur natus tempora. Beatae!</div>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequuntur molestias, distinctio, numquam corrupti sit sequi itaque molestiae eius accusamus illo praesentium rem! Sequi sapiente officia error voluptatum hic ipsam reiciendis, cumque explicabo a optio assumenda enim earum libero tempora voluptates ipsum molestiae alias. Assumenda a aperiam voluptate maxime, laborum iste perspiciatis totam maiores labore temporibus soluta nulla dolore tempore officia distinctio, inventore suscipit, animi libero aspernatur natus tempora. Beatae!</div>
+</body>
+</html>

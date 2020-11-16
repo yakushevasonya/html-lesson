@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font: 50px sans-serif;
+    background: #F5C2B5;
+    padding: 50px;
+    height: 100vh;
+    box-sizing: content-box; /* width and height - размеры контента */
+    box-sizing: border-box; /* размер блока = border + padding + content */
+}
+.root {
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex; /* Гибкий блок */
+    flex-direction: row ;
+    /* направление основной оси
+    row слева направо
+    row-reverse справа налево
+    column сверху вниз
+    column-revese снизу вверх*/
+    justify-content: center;
+    /* Расположение элементов вдоль основной оси
+    flex-start  начать с начала оси
+    flex-end закончить у конца оси
+    center
+    space-around разные отступы вокруг каждого flex элемента
+    space-between разное расстояние между flex элементами*/
+    align-items: center;
+    /* 
+    align-items расположение flex элементов вдоль поперечной оси
+    stretch растянуть по высоте flex-контейнера (родителя)
+    flex-start
+    flex-end
+    center
+    */
+}
+.root-item {
+    background: #F5E6D7;
+    /*width: 150px;*/
+    /*height: 150px;*/
+    padding: 50px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    /*line-height: 150px;*/
+}
+.container {
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+    /*padding: 50px;*/
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header {
+    height: 70px;
+    /*background: palevioletred;*/
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: ceneter;
+    padding: 0 50px;
+}
+main {
+    height: calc(100% - 70px);
+    background: url(https://asiamountains.net/upload/slide/slide-1960x857-07.jpg) no-repeat center / cover;
+    color: #F166F5;
+    font-size: 70px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+ .logo {
+  width: 50px;
+  height: 50px;
+  background: orchid;
+  border-radius: 50%;
+ }
+ .menu {
+  width: 500px;
+  /*background: blue;*/
+  display: flex;
+  justify-content: space-between;
+ }
+ a {
+     color: #92DEDB;
+     text-decoration: none;
+     text-transform: uppercase;
+ }
